@@ -1,0 +1,83 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/6af475cad6.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Quro</title>
+</head>
+<body>
+    <!-- navbar start -->
+   <nav class="navbar">
+<ul class="nav-list">
+  <div class="logo">QURO</div>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#about">About</a></li>
+  <li><a href="#articles">Articles
+  </a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#logout">Logout</a></li>
+</ul>
+   </nav>
+   <!-- navbar end -->
+   <!-- main-section start -->
+   <section class="main-section">
+    <div class="main-content">
+      <div class="first-content">
+        <h1>Best books to read for you, At your choice.</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis quasi quia quidem. Quia asperiores voluptatem repudiandae aspernatur, dolorem tempora illo reprehenderit perferendis voluptatum saepe, voluptas temporibus deleniti ea odit quas.</p>
+        <button id="moreBtn" onclick="openModal()">Read More</button>
+        <button id="watchBtn" onclick="openVideo()">Watch</button>
+        <div class="popUp-content" id="popup">
+          
+          <h2>Read more about us</h2>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis dignissimos iste est necessitatibus architecto assumenda hic molestias rem numquam, cumque vel quisquam fugiat incidunt quibusdam ab atque, odio laboriosam. Culpa.</p>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis dignissimos iste est necessitatibus architecto assumenda hic molestias rem numquam, cumque vel quisquam fugiat incidunt quibusdam ab atque, odio laboriosam. Culpa.</p>
+         
+          <button style="float: right;" id="closepop" onclick="closeModal()">close</button>
+        </div>
+      </div>
+      <div class="second-content">
+        <img src="./images/7117804_3529668-removebg-preview.png" width="100%" height="auto" alt="reading img">
+      </div>
+    </div>
+   </section>
+   <!-- second content -->
+   <section class="second-section">
+      <div class="overlap-section">
+         <div class="features">
+            <i class="fa-solid fa-book"></i>
+           <h2>Simple and Easy</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quaerat hic vero quibusdam saepe aperiam neque similique nostrum id architecto, vitae, nulla aspernatur aliquid maxime enim eligendi, ipsum fugit aliquam.</p>
+        </div>
+     <div class="features">
+      <i class="fa-solid fa-truck"></i>      <h2>Simple and Easy</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quaerat hic vero quibusdam saepe aperiam neque similique nostrum id architecto, vitae, nulla aspernatur aliquid maxime enim eligendi, ipsum fugit aliquam.</p>
+     </div>
+     <div class="features">
+      <i class="fa-solid fa-lightbulb"></i>
+      <h2>Simple and Easy</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quaerat hic vero quibusdam saepe aperiam neque similique nostrum id architecto, vitae, nulla aspernatur aliquid maxime enim eligendi, ipsum fugit aliquam.</p>
+    </div>
+    </div>
+</div>
+   </section>
+   <!-- third section -->
+   <section class="contact-section">
+    <div class="map-section">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100940.1815992898!2d-122.52000109380816!3d37.75767131497807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2sSan%20Francisco%2C%20CA%2C%20USA!5e0!3m2!1sen!2snp!4v1671288224470!5m2!1sen!2snp" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"   referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+   </section>
+  <div id="video">
+    <iframe width="90%" height="600" src="https://www.youtube.com/embed/n1a3VZY0xgM?start=4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
+   <!-- footer -->
+   <footer>
+      <p>Copyright 2022 Quro</p>
+  </footer>
+  <script src="app.js">
+  </script>
+</body>
+</html>
